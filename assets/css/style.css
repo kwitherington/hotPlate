@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Sigmar+One');
+
+.like{
+    float: right;
+    
+}
+
+.dislike{
+    float: left;
+}
+
+.clear-div {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card {
+    padding: 5px;
+}
+
+#restName {
+    font-size: 250%;
+    font-family: 'Sigmar One', cursive;
+    color: yellow;
+    background: rgba(0,0,0,0.3);
+    
+}
+
+#rating, #genre, #price {
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+
+}
+
+.card .card-content .card-title {
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+#restaurantImage {
+    top: 8px
+}
+
+/* #restaurantImage {
+    height: 400px%;
+    width: 600px;
+} */
+
+
+
+@media screen and (max-width: 390px) {
+    #restName {
+        font-size: 150%;
+    }
+
+   
+
+
+
+}
+
+@media screen and (max-width: 535px) {
+   
+    .row .col.s4 {
+        width: 100%;
+    }
+
+
+
+}
+
+@media screen and (min-width: 535px) {
+   
+    .row .col.s4 {
+        /* width: 50%; */
+        display: grid;
+    grid-template-columns: 210px 210px 210px;
+    grid-template-rows: 185px 185px;
+    }
+
+}
+
+
+/* @media screen and (min-width: 600px) {
+.card{
+    position: relative;
+    top: 65px;
+    left: 150px;
+}
+
+
+}
+
+@media screen and (min-width: 900px) {
+    .card{
+        position: relative;
+        top: 65px;
+        left: 195px;
+    }
+    } */
+
